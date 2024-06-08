@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "idUser": 1,
+      "name": "Teste",
+      "email": "teste@emaill.com",
+      "fone": "11997788"
+    }
+  ],
+  "products": [
+    {
+      "idProduct": 1,
+      "description": "Product 1",
+      "PurchasePrice": 100,
+      "saleValue": 2.5,
+      "stockBalance": 10
+    },
+    {
+      "idProduct": 2,
+      "description": "Product 2",
+      "PurchasePrice": 200,
+      "saleValue": 2.5,
+      "stockBalance": 10
+    },
+    {
+      "idProduct": 3,
+      "description": "Product 3",
+      "PurchasePrice": 300,
+      "saleValue": 2.5,
+      "stockBalance": 10
+    },
+    {
+      "idProduct": 4,
+      "description": "Product 4",
+      "PurchasePrice": 400,
+      "saleValue": 2.5,
+      "stockBalance": 10
+    }
+  ],
+  "productEntry": [
+    {
+      "idProductEntry": 1,
+      "purchaseDate": "2019-01-01",
+      "idProduct": 1,
+      "descriptionProduct": "Product 1",
+      "quantityPurchased": 1,
+      "measuringUnit": "pç",
+      "invoice": 223,
+      "salePrice": 12
+    },
+    {
+      "idProductEntry": 2,
+      "purchaseDate": "2019-01-01",
+      "idProduct": 2,
+      "descriptionProduct": "Product 2",
+      "quantityPurchased": 1,
+      "measuringUnit": "pç",
+      "invoice": 223,
+      "salePrice": 12
+    },
+    {
+      "idProductEntry": 3,
+      "purchaseDate": "2019-01-01",
+      "idProduct": 3,
+      "descriptionProduct": "Product 3",
+      "quantityPurchased": 1,
+      "measuringUnit": "pç",
+      "invoice": 223,
+      "salePrice": 12
+    },
+    {
+      "idProductEntry": 4,
+      "purchaseDate": "2019-01-01",
+      "idProduct": 4,
+      "descriptionProduct": "Product 4",
+      "quantityPurchased": 1,
+      "measuringUnit": "pç",
+      "invoice": 223,
+      "salePrice": 12
+    }
+  ],
+  "stockOut": [
+    {
+      "idStockOut": 1,
+      "idUser": 1,
+      "userName": "John Doe",
+      "idProduct": 1,
+      "descriptionProduct": "Product 1",
+      "quantityPurchased": 1,
+      "measuringUnit": "pç",
+      "salePrice": 12,
+      "totalPurchase": 12.5,
+      "Status": "delivered",
+      "saleDate": "2019-01-01"
+    },
+    {
+      "idStockOut": 2,
+      "idUser": 2,
+      "userName": "Jane Doe",
+      "idProduct": 2,
+      "descriptionProduct": "Product 2",
+      "quantityPurchased": 1,
+      "measuringUnit": "pç",
+      "salePrice": 12,
+      "totalPurchase": 12.5,
+      "Status": "delivered",
+      "saleDate": "2019-01-01"
+    },
+    {
+      "idStockOut": 3,
+      "idUser": 3,
+      "userName": "Bob Smith",
+      "idProduct": 3,
+      "descriptionProduct": "Product 3",
+      "quantityPurchased": 1,
+      "measuringUnit": "pç",
+      "salePrice": 12,
+      "totalPurchase": 12.5,
+      "Status": "dispatched",
+      "saleDate": "2019-01-01"
+    },
+    {
+      "idStockOut": 4,
+      "idUser": 4,
+      "userName": "Alice Johnson",
+      "idProduct": 4,
+      "descriptionProduct": "Product 4",
+      "quantityPurchased": 1,
+      "measuringUnit": "pç",
+      "salePrice": 12,
+      "totalPurchase": 12.5,
+      "Status": "dispatched",
+      "saleDate": "2019-01-01"
+    }
+  ]
+}
